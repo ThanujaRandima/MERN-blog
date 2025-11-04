@@ -18,7 +18,7 @@ const Header = () => {
                 <button type="submit" className='bg-primary text-white px-8 py-2 rounded hover:scale-105 transition-all cursor-pointer' >Search</button>
             </form>
         </div>
-        <img src={assets.gradientBackground} alt="" className='absolute -top-50 -z-1 opacity-55' />
+        <img src={assets.gradientBackground} alt="" className='absolute -top-50 -z-1 opacity-100' />
     </div>
   )
 }

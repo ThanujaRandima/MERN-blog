@@ -13,10 +13,11 @@ const BlogList = () => {
         <div className='flex justify-center gap-4 sm:gap-8 my-10 relative px-4 sm:px-6 md:px-0'>
             {blogCategories.map((item) => {
                 return(
+                    
                     <div key={item} className='relative'>
                         <button onClick={() => setMenu(item)}
-                        className={`cursor-pointer text-gray-500
-                         ${menu === item && `text-white px-4 pt-0.5 `}`}>
+                            className={`cursor-pointer text-gray-500
+                            ${menu === item && `text-white px-4 pt-0.5 `}`}>
                             {item}
                             {menu == item  && (
                                 <motion.div layoutId = 'underline'
